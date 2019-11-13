@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+
+    <link type="text/css" rel="stylesheet" href="ExOffre.css">
+    <meta charset="utf-8">
+    <title>Exercice Offre</title>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="offre" id="offre1">
+        <h1> Les essentiels! </h1>
+        <h2> 9,99€<h2><br>
+      </div>
+
+      <div class="offre" id="offre2">
+        <h1> Les standards! </h1>
+        <h2> 19,99€<h2><br>
+      </div>
+
+      <div class="offre" id="offre3">
+        <h1>Premium!</h1>
+        <h2> 39,99€<h2><br>
+      </div>
+    </div>
+
+      <br><br><br>
+
+      <div class="slidecontainer">
+        <input type="range" oninput="Offre()" min="8" max="40" class="slider" id="myRange">
+        <p><center>Valeur: <span id="prix"></span></center</p>
+      </div>
+
+
+    <script src="ExOffre.js"></script>
+  </body>
+</html>
